@@ -19,4 +19,7 @@ features:
   - title: Beginner tier
     details: Deploy one app to a local kind cluster — Pod, Deployment, Service, and port-forward, end to end.
     link: /beginner/
+  - title: Intermediate tier
+    details: Production-shape the beginner Deployment — ConfigMap env, liveness/readiness probes, resource limits, rolling update, and scaling.
+    link: /intermediate/
 ---

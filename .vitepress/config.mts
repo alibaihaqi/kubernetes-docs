@@ -18,6 +18,7 @@ export default defineConfig({
     nav: [
       { text: 'Introduction', link: '/introduction/' },
       { text: 'Beginner', link: '/beginner/' },
+      { text: 'Intermediate', link: '/intermediate/' },
     ],
 
     search: { provider: 'local' },
@@ -46,6 +47,20 @@ export default defineConfig({
           { text: '05 A Service', link: '/beginner/05-service' },
           { text: '06 Reach the app', link: '/beginner/06-reach-the-app' },
           { text: '07 Teardown', link: '/beginner/07-teardown' },
+        ],
+      },
+      {
+        text: 'Intermediate',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/intermediate/' },
+          { text: '01 Why production-shape it', link: '/intermediate/01-why-production-shape' },
+          { text: '02 ConfigMap and env', link: '/intermediate/02-configmap' },
+          { text: '03 Probes', link: '/intermediate/03-probes' },
+          { text: '04 Resource requests and limits', link: '/intermediate/04-resources' },
+          { text: '05 Rolling update', link: '/intermediate/05-rolling-update' },
+          { text: '06 Scaling', link: '/intermediate/06-scaling' },
+          { text: '07 Wrap-up', link: '/intermediate/07-wrap-up' },
         ],
       },
     ],
