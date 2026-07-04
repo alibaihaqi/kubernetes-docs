@@ -3,6 +3,14 @@
 All notable changes to the Kubernetes learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-04 — Intermediate tier
+
+### Added
+- **Intermediate tier** (`src/intermediate/`, 7 pages): production-shapes the
+  beginner `web` Deployment — ConfigMap env, liveness/readiness probes, resource
+  requests/limits, a rolling update, and scaling. Ends by reusing the beginner
+  teardown.
+
 ## 2026-07-04 — Site scaffold + beginner tier
 
 ### Added
