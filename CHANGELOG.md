@@ -3,6 +3,11 @@
 All notable changes to the Kubernetes learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-05 — Advanced tier
+
+### Added
+- **Advanced tier** (`src/advanced/`, 10 pages + index): full production cluster on kind — Helm packaging, nginx-ingress controller, cert-manager TLS, StatefulSet with PostgreSQL/PersistentVolume, GitOps with ArgoCD, Prometheus/Grafana monitoring, Loki logging, RBAC and Pod Security Standards, and production hardening (PDB, topology spread, HPA, ResourceQuota). Wired into the sidebar, nav, and home feature card.
+
 ## 2026-07-04 — Intermediate tier
 
 ### Added

@@ -22,4 +22,7 @@ features:
   - title: Intermediate tier
     details: Production-shape the beginner Deployment — ConfigMap env, liveness/readiness probes, resource limits, rolling update, and scaling.
     link: /intermediate/
+  - title: Advanced tier
+    details: Full production cluster — Helm, Ingress, cert-manager TLS, StatefulSets, GitOps with ArgoCD, Prometheus/Grafana, Loki logging, RBAC, and hardening.
+    link: /advanced/
 ---
