@@ -20,6 +20,7 @@ export default defineConfig({
       { text: 'Beginner', link: '/beginner/' },
       { text: 'Intermediate', link: '/intermediate/' },
       { text: 'Advanced', link: '/advanced/' },
+      { text: 'Argo Stack', link: '/argo-stack/' },
     ],
 
     search: { provider: 'local' },
@@ -79,6 +80,17 @@ export default defineConfig({
           { text: '08 Logging with Loki', link: '/advanced/08-logging-with-loki' },
           { text: '09 RBAC and security', link: '/advanced/09-rbac-and-security' },
           { text: '10 Production hardening', link: '/advanced/10-production-hardening' },
+        ],
+      },
+      {
+        text: 'Argo Stack',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/argo-stack/' },
+          { text: '02 Argo Events', link: '/argo-stack/02-argo-events' },
+          { text: '03 Argo Workflows', link: '/argo-stack/03-argo-workflows' },
+          { text: '04 Pipeline', link: '/argo-stack/04-pipeline' },
+          { text: '05 Teardown', link: '/argo-stack/05-teardown' },
         ],
       },
     ],

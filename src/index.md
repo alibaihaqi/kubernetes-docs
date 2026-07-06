@@ -25,4 +25,7 @@ features:
   - title: Advanced tier
     details: Full production cluster — Helm, Ingress, cert-manager TLS, StatefulSets, GitOps with ArgoCD, Prometheus/Grafana, Loki logging, RBAC, and hardening.
     link: /advanced/
+  - title: Argo Stack
+    details: Event-driven GitOps pipeline — Argo Events triggers Argo Workflows triggers ArgoCD sync. Webhook-to-deploy on kind, all local.
+    link: /argo-stack/
 ---
