@@ -7,7 +7,7 @@
 > added over time so you have context before reading the code.
 
 ## Content model
-- Content lives in `src/`. Tiers: `introduction`, `beginner`, `intermediate`.
+- Content lives in `src/`. Sections: `introduction`, `beginner`, `intermediate`, `advanced`, `argo-stack`.
 - A tier is a numbered ladder building ONE concrete artifact.
 - Tier `index.md` frontmatter: `title`, `tier`, `platform: kubernetes`.
 
