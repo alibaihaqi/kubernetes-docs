@@ -131,7 +131,7 @@ Key fields:
 - `entrypoint: main` — when the workflow runs, start at the `main` template
 - `arguments.parameters` — workflow-level inputs; `message` defaults to `"default"` but can be overridden at submit time
 - `steps` — the double dash `- -` introduces a **sequential group**: each inner list runs in order, so `deploy` only starts after `build` succeeds
-- `{{workflow.parameters.message}}` — Argo interpolation that forwards the workflow-level parameter down into the `build-step` template's own input
+- <code v-pre>{{workflow.parameters.message}}</code> — Argo interpolation that forwards the workflow-level parameter down into the `build-step` template's own input
 
 Apply it:
 
