@@ -3,6 +3,18 @@
 All notable changes to the Kubernetes learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-07 — Argo Stack section
+
+### Added
+- **Argo Stack section** (`src/argo-stack/`, 5 pages + index): new sidebar group
+  covering the Argo event-driven pipeline. Pages: Overview (ecosystem intro +
+  pipeline diagram), Argo Events (EventBus, webhook EventSource, Sensor, RBAC),
+  Argo Workflows (install, WorkflowTemplate with build/deploy steps, manual
+  submit via CLI + UI), Pipeline (wire Sensor `k8s` trigger to create Workflows
+  automatically — end-to-end curl → event → workflow test), Teardown. Full
+  pipeline runs on kind — no GitHub or ngrok required. Also fixed stale
+  CLAUDE.md content-model line and a Vue mustache escaping bug in page 03 prose.
+
 ## 2026-07-05 — Advanced tier
 
 ### Added
