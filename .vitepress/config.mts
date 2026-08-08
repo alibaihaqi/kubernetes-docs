@@ -26,7 +26,7 @@ export default defineConfig({
     search: { provider: 'local' },
 
     footer: {
-      copyright: 'Copyright © 2023 - Present by Fadli Al Baihaqi',
+      copyright: 'Copyright © 2026 - Present by Fadli Al Baihaqi',
     },
 
     sidebar: [
