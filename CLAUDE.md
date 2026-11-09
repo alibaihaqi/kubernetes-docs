@@ -22,7 +22,7 @@ card in `src/index.md`.
 
 ## Build
 - `pnpm install`
-- `pnpm docs:build`   # must pass; checks dead links (Node 26.4.0)
+- `pnpm docs:build`   # must pass; checks dead links (Node 26.12.1)
 - `pnpm docs:preview`
 
 ## RULE — this repo is PUBLIC
